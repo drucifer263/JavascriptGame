@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html lang="en">
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Tindex.jpg">
+    <link rel="stylesheet" type="text/css" href="myStyleSheet.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="myJavaScript.js"></script>
+
+    <title>Guessing Game</title>
+</head>
+<body>
+    <nav class="navBar">
+        <div id="nav-btn">
+            <img id="nav-icon" src="images/menu.png" alt="Menu Icon" />
+        </div>
+        <ul class="navList">
+            <li><a class="highlight" href="http://cis-iis2.temple.edu/Fall2018/CIS3344_tua07182/">Home Page</a></li>
+            <li><a href="#info">Footer</a></li><!---->
+        </ul>
+    </nav>
+    <div class="clear"></div>
+
+    <header>
+        <h1>Guessing Game</h1>
+    </header>
+    <main>
+        <section class="game">
+            <div id="aboutDisplay">
+                <p>Welcome to my guessing game.Press the start button to begin.
+                   Guess the celebrity in the picture. Make sure to put the first and last name (ex. Hanna West).
+                   The first and last Name should be separated with a space and the first letter of each should be CAPITALIZED!!
+                    At the end of 10 rounds you will have a bonus round to wager some or all of your points to guess the age of 
+                    a celebrity within + or - 2 years. </p>
+                <p>
+                    If you are fast and accurate enough you may get a time bonus. Score of 90 or higher plus speed will gain extra points.
+                    There are several levels, try them all!!.
+                </p>
+            </div>
+            <div id="scoreDisplay"></div>
+            <div id="roundDisplay"></div>
+            <div id="imageDisplay"><div id="rightside"><img src="images/reel.jpeg" alt="reel"></div></div>
+           
+            <div id="timerDisplay"></div>
+            <input id="btnStart" type="button" value="Start" />
+            <input id="txtGuess" type="text" required>
+            <input id="btnSubmit" type="button" value="Enter Guess">
+            <input id="txtWager" type="text" required>
+            <input id="btnWager" type="button" value="Enter Wager" >
+            <input id="txtAge" type="text" required>
+            <input id="btnAge" type="button" value="Enter Age">
+            
+        </section>
+
+       
+    </main>
+    <footer class="info">Drew Watson, <a href="mailto:dru.w@temple.edu">dru.w@temple.edu</a></footer>
+</body>
+</html>
